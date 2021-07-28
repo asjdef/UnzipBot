@@ -19,10 +19,10 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @MysteryBots ♥"
+        START += f"\n\nBy @SL_MEDIA_TECH_GROUP ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source Unzip bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/UnzipBot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
+    ABOUT = "**About This Bot** \n\nThis is an open source Unzip bot by @SL_MEDIA_TECH_GROUP \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Cutie Cat](https://t.me/Akilawiduruwan)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -58,7 +58,7 @@ I'll unzip/unrar it and return you it's contents.
 /help - This Message.
 /start - Check if bot is alive.
 
-**Support** - @MysteryBots & @MysteryBotsChat
+**Support** - @SL_MEDIA_TECH_GROUP
 """
     
     MODES = """
@@ -107,7 +107,7 @@ This is bit fast but only recommended for larger files as smaller files won't ha
             InlineKeyboardButton("📤 About 📤", callback_data="about"),
         ],
         [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
-        [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
-    ]
+
+[InlineKeyboardButton("♥ SL MEDIA TECH ♥", url="https://t.me/MysteryBots")],
+
+]
