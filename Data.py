@@ -108,6 +108,6 @@ This is bit fast but only recommended for larger files as smaller files won't ha
         ],
         [InlineKeyboardButton("How to Use me ⁉️", callback_data="help")],
 
-[InlineKeyboardButton("♥ SL MEDIA TECH ♥", url="https://t.me/SL_MEDIA_TECH_GROUP")],
+[InlineKeyboardButton("♥ SL MEDIA TECH ♥", url="https://t.me/SL_MEDIA_TECH_GRUOP")],
 
 ]
